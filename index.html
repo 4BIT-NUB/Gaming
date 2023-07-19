@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Genie</title>
+
+    <style>
+        @import url(<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">);
+
+
+        * {
+            font-family: 'Work Sans', sans-serif;
+        }
+
+
+
+        /* button section */
+        .btn-primary {
+            color: #FFF;
+            font-size: 20px;
+            font-weight: 600;
+            text-transform: uppercase;
+            padding: 21px 40px;
+            /* gap: 10px; */
+            margin-top: 25px;
+            margin-right: 15px;
+            border-radius: 48px;
+            border: none;
+            background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+        }
+
+        .btn-secondary {
+            color: #FFF;
+            font-size: 20px;
+            font-weight: 600;
+            text-transform: uppercase;
+            padding: 21px 40px;
+            border-radius: 48px;
+            background: #4EC5F7;
+            border: none;
+        }
+
+        .nav-container {
+            background: #FFF;
+            box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px;
+        }
+
+        .nav-container {
+            padding: 0px 150px 0px 150px;
+        }
+
+        .logo img {
+            height: 40px;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        li {
+            margin-right: 20px;
+        }
+
+        a {
+            color: #3C354F;
+            margin-right: 30px;
+            font-size: 18px;
+            font-weight: 500;
+            text-decoration: none;
+        }
+
+        .pic {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .logo {
+            display: flex;
+        }
+
+        /* title section */
+        .gamer-title {
+            color: #0B0223;
+            font-size: 45px;
+            font-weight: 700;
+        }
+
+
+
+        .second-title>h2 {
+            margin-top: 80px;
+            color: #0B0223;
+            text-align: center;
+            font-size: 48px;
+            font-weight: 600;
+            text-transform: uppercase;
+
+        }
+
+        .second-title>h1 {
+            padding: top;
+            font-size: 70px;
+            font-weight: 800;
+            text-transform: uppercase;
+            background: linear-gradient(180deg, #F948B2 0%, #8758F1 50%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .second-title>li {
+            margin: 10px;
+            color: #534C64;
+            font-size: 20px;
+            font-weight: 500;
+            text-transform: lowercase;
+        }
+
+        .banner-image {
+            display: block;
+            width: 600px;
+            height: auto;
+            position: relative;
+            top: -20px;
+            right: -100px;
+        }
+
+        .banner {
+            display: flex;
+            padding: 0px 150px 0px 150px;
+        }
+
+
+        /* second photo */
+        .company-info {
+            display: flex;
+        }
+
+        .companny-banner {
+            padding: 0px 150px 0px 150px;
+        }
+
+        .pngwing-img>img {
+            width: 600px;
+            height: 380px;
+        }
+
+        .contain-discription {
+            text-align: right;
+        }
+
+        .we-are-gamer {
+            margin-bottom: 0;
+            font-size: 3rem;
+            font-weight: 700;
+            background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .we-are-game-discription {
+            margin-top: 10px;
+            margin-bottom: 0;
+            width: 520px;
+            color: #534C64;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 30px;
+        }
+
+        .ouroptin {
+            margin-top: 10px;
+            color: #534C64;
+            font-size: 28px;
+            font-weight: 700;
+            line-height: 30px;
+        }
+
+        .video-sec-container {
+            text-align: center;
+        }
+
+        .video-title {
+            margin-bottom: 0;
+            color: #0B0223;
+            font-size: 2.9rem;
+            font-weight: 700;
+
+        }
+
+        .video-discription {
+            margin-top: 16px;
+            color: #534C64;
+            font-size: 15px;
+            font-weight: 400;
+
+        }
+
+        .Funny-Videos {
+            background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-size: 48px;
+            font-weight: 700;
+        }
+
+
+        /* img section */
+
+        .game-image-container {
+            display: flex;
+
+        }
+
+        .Rectangular-img-container {
+            padding: 0px 150px 0px 150px;
+        }
+
+        .image-info>img {
+            align-items: center;
+            border-radius: 16px;
+            width: 260px;
+            height: 300px;
+        }
+
+        .image-info {
+            float: left;
+            width: 25%;
+            height: 100%;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="nav-container">
+
+        <div class="logo">
+            <a class="pic" href="#"><img src="images/Frame.png" alt="Logo"></a>
+            <h1 class="gamer-title">Gamer Genie</h1>
+        </div>
+        <div>
+            <nav></nav>
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Developers</a></li>
+                <li><a href="#">Follow Us On</a></li>
+            </ul>
+            </nav>
+        </div>
+
+    </header>
+    <main>
+        <section>
+            <div class="banner">
+                <div class="second-title">
+                    <h2>Play Like The</h2>
+                    <h1>G.O.A.T.</h1>
+                    <li>1-Click instant play</li>
+                    <li>No Download</li>
+                    <li>1000s of supported online games</li>
+                    <button class="btn-primary">Sign In</button>
+                    <button class="btn-secondary">Go Rogue</button>
+                </div>
+                <div class="banner-image">
+                    <img src="images/Group 18.png" alt="">
+                </div>
+            </div>
+        </section>
+
+
+
+        <section class="companny-banner">
+            <div class="company-info">
+                <div class="pngwing-img">
+                    <img src="images/pngwing 4.png" alt="">
+                </div>
+                <div class="contain-discription">
+                    <h1 class="we-are-gamer">We are gamer</h1>
+                    <p class="we-are-game-discription">An international digital games and entertainment company. We
+                        develop, publish and distribute
+                        multiplayer mobile games. We reach over 400 million players each month and our audience keeps
+                        growing.</p>
+                    <button class="btn-primary">know more</button>
+                    <p class="ouroptin"><small>Our purpose... <br></small>
+                        “unleash the gamer in everyone”</p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="video-sec-container">
+                <h1 class="video-title">Online Games <span class="Funny-Videos">Funny Videos</span></h1>
+                <p class="video-discription">A Collection of Hilarious Videos to Brighten Your Day</p>
+
+            </div>
+        </section>
+        <section class="Rectangular-img-container">
+            <div class="game-image-container">
+                <div class="image-info">
+                    <img src="images/Rectangle 4.png" alt="">
+                    <p>No Download. No Installs. Play games Instantly on Gamer.</p>
+                </div>
+                <div class="image-info">
+                    <img src="images/Rectangle 5.png" alt="">
+                    <p>Did you score? #unblockedgames #school</p>
+                </div>
+                <div class="image-info">
+                    <img src="images/Rectangle 6.png" alt="">
+                    <p>Breaking game records like OG</p>
+                </div>
+                <div class="image-info">
+                    <img src="images/Rectangle 7.png" alt="">
+                    <p>Busted gaming on school laptop, but you are still lit.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
