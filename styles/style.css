@@ -1,0 +1,381 @@
+<style>
+        @import url(<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">);
+
+
+        * {
+            font-family: 'Work Sans', sans-serif;
+        }
+
+
+
+        /* button section */
+        .btn-primary {
+            color: #FFF;
+            font-size: 20px;
+            font-weight: 600;
+            text-transform: uppercase;
+            padding: 21px 40px;
+            /* gap: 10px; */
+            margin-top: 25px;
+            margin-right: 15px;
+            border-radius: 48px;
+            border: none;
+            background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+        }
+
+        .btn-secondary {
+            color: #FFF;
+            font-size: 20px;
+            font-weight: 600;
+            text-transform: uppercase;
+            padding: 21px 40px;
+            border-radius: 48px;
+            background: #4EC5F7;
+            border: none;
+        }
+
+        .third-btn {
+            font-size: 20px;
+            font-weight: 600;
+            text-transform: uppercase;
+            background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .nav-container {
+            background: #FFF;
+            box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px;
+        }
+
+        .nav-container {
+            padding: 0px 150px 0px 150px;
+        }
+
+        .logo img {
+            height: 40px;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        li {
+            padding: 10px 0px 10px 10px;
+            margin-right: 20px;
+        }
+        
+        .link-logo{
+            padding-right: 20px;
+        }
+
+        a {
+            color: #3C354F;
+            margin-right: 30px;
+            font-size: 18px;
+            font-weight: 500;
+            text-decoration: none;
+        }
+
+        .pic {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .logo {
+            display: flex;
+        }
+
+        /* title section */
+        .gamer-title {
+            color: #0B0223;
+            font-size: 45px;
+            font-weight: 700;
+        }
+
+
+
+        .second-title>h2 {
+            margin-top: 80px;
+            color: #0B0223;
+            text-align: center;
+            font-size: 48px;
+            font-weight: 600;
+            text-transform: uppercase;
+
+        }
+
+        .second-title>h1 {
+            padding: top;
+            font-size: 70px;
+            font-weight: 800;
+            text-transform: uppercase;
+            background: linear-gradient(180deg, #F948B2 0%, #8758F1 50%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .second-title>li {
+            margin: 10px;
+            color: #534C64;
+            font-size: 20px;
+            font-weight: 500;
+            text-transform: lowercase;
+        }
+
+        .banner-image {
+            display: block;
+            width: 600px;
+            height: auto;
+            position: relative;
+            top: -20px;
+            right: -100px;
+        }
+
+        .banner {
+            display: flex;
+            padding: 0px 150px 0px 150px;
+        }
+
+
+        /* second photo */
+        .company-info {
+            display: flex;
+        }
+
+        .companny-banner {
+            padding: 0px 150px 0px 150px;
+        }
+
+        .pngwing-img>img {
+            width: 600px;
+            height: 380px;
+        }
+
+        .contain-discription {
+            text-align: right;
+        }
+
+        .we-are-gamer {
+            margin-bottom: 0;
+            font-size: 3rem;
+            font-weight: 700;
+            background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .we-are-game-discription {
+            margin-top: 10px;
+            margin-bottom: 0;
+            width: 520px;
+            color: #534C64;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 30px;
+        }
+
+        .ouroptin {
+            margin-top: 10px;
+            color: #534C64;
+            font-size: 28px;
+            font-weight: 700;
+            line-height: 30px;
+        }
+
+        .video-sec-container {
+            text-align: center;
+        }
+
+        .video-title {
+            margin-bottom: 0;
+            color: #0B0223;
+            font-size: 2.9rem;
+            font-weight: 700;
+
+        }
+
+        .video-discription {
+            margin-top: 16px;
+            color: #534C64;
+            font-size: 15px;
+            font-weight: 400;
+
+        }
+
+        .Funny-Videos {
+            background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-size: 48px;
+            font-weight: 700;
+        }
+
+
+        /* img section */
+
+        .game-image-container {
+            display: flex;
+
+        }
+
+        .Rectangular-img-container {
+            padding: 0px 150px 0px 150px;
+        }
+
+        .image-info>img {
+            align-items: center;
+            border-radius: 16px;
+            width: 260px;
+            height: 300px;
+        }
+
+        .image-info {
+            float: left;
+            width: 25%;
+            height: 100%;
+            padding: 5px;
+        }
+
+        /* careear section */
+
+        .career-container {
+            display: flex;
+            background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+
+        }
+
+
+        .first-div {
+            padding: 0px 0px 0px 150px;
+            width: 40%;
+        }
+
+        .careear-title {
+            color: #FFF;
+            font-family: Work Sans;
+            font-size: 48px;
+            font-weight: 700;
+            line-height: 60px;
+
+        }
+
+        .careear-discription {
+            color: #FFF;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 30px;
+        }
+
+        .artist-container {
+            display: flex;
+            color: #FFF;
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 30px;
+            padding-bottom: 100px;
+        }
+
+        .right-con {
+            text-align: right;
+            margin-left: 25px;
+        }
+
+        .careear-img {
+            /* padding: 20px 150px; */
+            /* padding-top: 100px; */
+            padding-bottom: 100px;
+            width: 50%;
+            height: 100px
+        }
+
+        /* footer section */
+
+        .main-footer {
+            width: 100%;
+            height: 630px;
+            background: #0B0223;
+        }
+
+        .footer-title {
+            padding-top: 100px;
+            text-align: center;
+            font-size: 45px;
+            font-weight: 700;
+            background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        /* .footer-title-span {
+            color: #FFF;
+            font-size: 45px;
+            font-weight: 700;
+        } */
+        .line,
+        .line2 {
+            padding-top: 40px;
+        }
+
+        .line>ul {
+            color: #FFF;
+            justify-content: center;
+            font-size: 18px;
+            font-weight: 600;
+        }
+
+        .line2>ul {
+            color: #FFF;
+            color: rgba(255, 255, 255, 0.60);
+            justify-content: center;
+            font-size: 16px;
+            font-weight: 500;
+        }
+
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .social-icons a {
+            padding-top: 60px;
+            display: inline-block;
+            margin: 0 20px;
+        }
+
+        .copy-right {
+            color: rgba(255, 255, 255, 0.60);
+            margin-top: 20px;
+            text-align: center;
+            font-size: 16px;
+            font-weight: 500;
+        }
+
+        .header-youtube-link{
+            display: flex;
+            border-radius: 8px;
+            background: rgba(11, 2, 35, 0.10);
+            justify-content: center;
+        }
+
+        
+    </style>
