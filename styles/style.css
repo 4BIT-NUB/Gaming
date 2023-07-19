@@ -1,4 +1,4 @@
-<style>
+
         @import url(<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">);
 
@@ -377,5 +377,38 @@
             justify-content: center;
         }
 
+       @media screen and (max-width: 576px){
+        .nav-container{
+            padding: 2px;
+            flex-direction: column;
+        }
+        .banner{
+            flex-direction: column;
+            padding: 5px;
+        }
+        .ul{
+            flex-direction: column;
+            grid-template-columns: repeat(auto-fill, 1fr);
+        }
+        .li{
+            padding: 5px;
+        }
+        .banner-image{
+            right: auto;
+        }
+        .company-info{
+            flex-direction: column;
+        }
+        .companny-banner{
+            padding: 5px;
+        }
+        .contain-discription{
+            text-align: center;
+        }
+        .game-image-container{
+            flex-direction: column;
+        }
+       }
+
         
-    </style>
+  
