@@ -427,6 +427,10 @@
             width: 60%;
             height: 100%;
         }
+        .footer-title{
+            text-align: center;
+            padding: 10px;
+        }
        }
 
         
