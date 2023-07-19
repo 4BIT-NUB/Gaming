@@ -408,6 +408,25 @@
         .game-image-container{
             flex-direction: column;
         }
+        .image-info{
+            width: 50%;
+        }
+        .career-container{
+            flex-direction: column;
+        }
+        .Rectangular-img-container{
+            padding: 5px;
+        }
+        .first-div{
+            padding: 5px;
+        }
+        .artist-container{
+            flex-direction: column;
+        }
+        .careear-img{
+            width: 60%;
+            height: 100%;
+        }
        }
 
         
