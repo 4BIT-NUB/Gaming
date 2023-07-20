@@ -376,6 +376,13 @@
             background: rgba(11, 2, 35, 0.10);
             justify-content: center;
         }
+        .fa-youtube, .fa-tiktok {
+            margin-right: 15px;
+            margin-left: 15px;
+        }
+        .fa-brands {
+            padding: 10px 50px 10px 0px;
+        }
 
        @media screen and (max-width: 576px){
         .nav-container{
@@ -415,7 +422,7 @@
             flex-direction: column;
         }
         .Rectangular-img-container{
-            padding: 5px;
+            margin: 0px;
         }
         .first-div{
             padding: 5px;
@@ -430,6 +437,10 @@
         .footer-title{
             text-align: center;
             padding: 10px;
+        }
+        .fa-brands {
+
+            padding: 0px;
         }
        }
 
